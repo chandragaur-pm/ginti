@@ -1,0 +1,10 @@
+# ginti.online and www variants all land on ginti.live
+https://ginti.online/*       https://ginti.live/:splat  301!
+http://ginti.online/*        https://ginti.live/:splat  301!
+https://www.ginti.online/*   https://ginti.live/:splat  301!
+http://www.ginti.online/*    https://ginti.live/:splat  301!
+https://www.ginti.live/*     https://ginti.live/:splat  301!
+http://www.ginti.live/*      https://ginti.live/:splat  301!
+
+# single-page app: let the client-side router handle /up, /pb, /about, etc.
+/*  /index.html  200

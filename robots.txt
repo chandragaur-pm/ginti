@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ginti.live/sitemap.xml
