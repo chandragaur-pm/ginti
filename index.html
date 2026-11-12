@@ -20,6 +20,8 @@
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
 <body>
+<title>Ginti 2027</title>
+<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@75..150,500..900&family=Hind:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
@@ -707,7 +709,7 @@ function renderTabs(){
     b.onclick=()=>{ if(currentKey()===k) route(); else go(k); };
     t.appendChild(b);
   }
-  const a = el('a',{class:'tab info',href:'#about','aria-selected':String(view==='about')},'<b>About the data</b>');
+  const a = el('a',{class:'tab info',href:'/about','aria-selected':String(view==='about')},'<b>About the data</b>');
   t.appendChild(a);
 }
 
@@ -1141,6 +1143,7 @@ window.__ginti = {get blocs(){return blocs}, load, STATES};
 route();
 })();
 </script>
+
 
 </body>
 </html>
